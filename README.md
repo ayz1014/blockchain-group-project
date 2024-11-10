@@ -8,7 +8,7 @@ This repository contains the source code and documentation for the NFTSwap contr
 - [Prerequisites](#Prerequisites)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Contract Details](#Contract)
+- [ContractDetails](#ContractDetails)
 
 ## Overview
 NFTSwap is a smart contract built with Solidity that facilitates the swapping of NFTs (Non-Fungible Tokens) between users. This contract ensures that the swap process is secure and atomic, meaning that both parties must agree to the swap for it to succeed. If either party changes their mind before the swap is finalized, the transaction is aborted.
