@@ -57,7 +57,8 @@ If either party calls the function before the swap is accepted, the swap will be
 
 ## Contract Details
 1.Functions
-initiateSwap(address _to, uint256 _tokenId1, uint256 _tokenId2): Initiates a swap request from the caller to address , proposing to swap for ._to_tokenId1_tokenId2
+initiateSwap(address _to, uint256 _tokenId1, uint256 _tokenId2):
+Initiates a swap request from the caller to address , proposing to swap for ._to_tokenId1_tokenId2
 acceptSwap(uint256 _swapId): Accepts a swap request identified by ._swapId
 cancelSwap(uint256 _swapId): Cancels a swap request identified by ._swapId
 
